@@ -10,10 +10,11 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Multiple linear regression is performed on the dataset.
+- Advanced linear regression is performed on the dataset.
 - The project is done as part of coursework in the Machine Learning module. 
-- We are trying to find the number of rentals issued from the company based on numerous independent values such as temperature, weather, humidity, holiday, etc. 
-- The Boombikes bike rental dataset is being used. 
+- We are trying to model the price of houses with the available independent variables. 
+- The Surprise Housing dataset is being used. 
+- Regularization is focused on this dataset with ridge and lasso regression used. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
