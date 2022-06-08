@@ -19,13 +19,15 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- The R-squared value of the train set is 82.71% whereas the test set has a value of 81.13% which suggests that our model broadly explains the variance quite accurately on the test set and thus we can conclude that it is a good model.
+1) We have cleaned and visualized the data, treated for outlier and imputed values as and when required and prepared the model for training. 
 
-- Our developed model's mean squared error is almost 0 on both the training and testing datasets which suggests that the variance is accurately predicted on the test set. The p-values and VIF were used to select the significant variables. RFE was also conducted for automated selection of variables.
+2) The train and test scores for linear regression were 92.12% and 89.43% respectively. 
 
-- The major steps included in the python notebook are data interpretation, data visualisation, data pre-processing, model training, feature selection, residual analysis, model evaluation on the test set. 
+3) The train and test scores for ridge regression were 92.11% and 89.39% respectively.
 
-- Concepts such as EDA, p-value, VIF, RFE were used and model building was done using statsmodels library
+4) The train and test scores for lasso regression were 91.74% and 88.70% respectively.
+
+5) As we can see there is not much difference in the model performances in the three cases, however lasso regression model performs ever so slightly better than the other two models. The most important predictor values determined from the analysis were as follows- GrLivArea, OverallQual, MSZoning_RL, MSZoning_RM, TotalBsmtSF 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
